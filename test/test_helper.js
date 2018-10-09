@@ -9,7 +9,7 @@ import Client4 from 'client/client4';
 import {DEFAULT_LOCALE} from 'constants/general';
 import {generateId} from 'utils/helpers';
 
-const DEFAULT_SERVER = `${process.env.MATTERMOST_SERVER_URL || 'http://localhost:8065'}`; //eslint-disable-line no-process-env
+export const DEFAULT_SERVER = `${process.env.MATTERMOST_SERVER_URL || 'http://localhost:8065'}`; //eslint-disable-line no-process-env
 const EMAIL = `${process.env.MATTERMOST_REDUX_EMAIL || 'redux-admin@simulator.amazonses.com'}`; //eslint-disable-line no-process-env
 const PASSWORD = `${process.env.MATTERMOST_REDUX_PASSWORD || 'password1'}`; //eslint-disable-line no-process-env
 
