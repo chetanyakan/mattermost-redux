@@ -58,7 +58,7 @@
     "remote-redux-devtools-on-debugger": "0.8.3",
     "uglifyjs-webpack-plugin": "1.2.5",
     "webpack": "3.5.5",
-    "ws": "5.1.1"
+    "ws": "7.4.6"
   },
   "scripts": {
     "build": "babel src --out-dir .",
